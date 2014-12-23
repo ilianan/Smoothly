@@ -263,15 +263,88 @@ section#home {
 				padding-bottom: 9px; }
 
 	#portfolio > .wrap > .images {
-		margin-top: 30px;}
+		margin-top: 30px;
+		text-align: center;}
 		#portfolio > .wrap > .images > img {
-			margin: 0 20px 20px 0;
-		}
+			margin: 0 20px 20px 0;}
 
+/*CONTACT*/
+#contact{ 
+	height: 800px;
+	background: #039be5;}
+	
+	#contact > .wrap > h2 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 300;
+		font-size: 36px;
+		margin-top: 50px;
+		line-height: 70px;}
+
+	#contact > .wrap > p {
+		text-align: center;
+		color: #fff;
+		font-weight: 300;
+		font-size: 18px;}
 			
+	/**MAP*/
+	#contact> .wrap > #map-canvas {
+        width: 450px;
+        height: 440px;
+        background-color: #ccc;
+        margin-top: 6em;
+        display: inline-block;}
 
+   /**FORM*/
+    #contact> .wrap > form {
+    	display: inline-block;
+    	vertical-align: baseline;
+    	width: 470px;}
+    	#contact> .wrap > form > input, textarea {
+    		width: 91%;
+    		font-size: 14px;
+    		float: left;
+    		background: #fff;
+    		margin: 10px 0 8px 50px;
+    		padding: 15px;
+    		vertical-align: bottom;
+    		border: none;}
+		#contact> .wrap > form > textarea {
+			height: 160px;
+			font-family: "Lato";
+			margin-bottom: 15px;}
+		#contact> .wrap > form > button {
+			width: 97.5%;
+			border: 1px solid #fff;
+			background:#039be5; 
+			color: white;
+			margin-left: 50px;
+			padding: 12px;
+			font-weight: 300;
+			float: left;
+    		font-size: 21px;
+    		font-size: 14px;
+    		font-weight: 300;}
+		#contact> .wrap > form > button:hover{
+			font-weight: 400;
+			border: 2px solid #fff;
+			font-size: 15px;}
+/*FOOTER*/
 
+footer {height: 100px;}
+	footer > .wrap > h2 {
+		color: #039be5;
+		font-weight: 300;
+		text-transform: uppercase;
+		font-size: 36px;
+		text-align: center;
+		margin-top: 35px;}
 
+	footer > .wrap > p {
+		color: #888;
+		font-size: 14px;
+		text-align: center;}
 
 
 
