@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Lato";
+	height: 100%;
+	width: 100%;
+	position: absolute;;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1024px;
+}
+/*HEADER*/
+body > header {
+	height: 80px;
+	position: fixed;
+	background: #039be5;
+	width: 100%;
+	z-index: 3; }
+
+	body > header  .logo {
+		display: inline;
+		font-size: 24px;
+		text-decoration: none;
+		line-height: 70px;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: white; }
+
+	body > header nav {
+		display: inline-block;
+		float: right; }
+
+		body > header nav > ul > li {
+			display: inline-block;
+			padding: 0.7em;
+			line-height: 54px; }
+
+			body > header nav > ul > li > a {
+				text-decoration: none;
+				color: #fff;
+				font-weight: 300;
+				text-transform: uppercase;
+				font-size: 14px; }
+			body > header nav > ul > li > a:hover {
+				font-weight: 400;
+				text-transform: uppercase;
+				color: white; }
+
+/**
+ * WRAPPER FOR THE MAIN CONTENT
+ */
+#content {
+	height: 100%;
+	padding-top: 80px;
+	box-sizing: border-box; }
+
+	#content > section {
+		display: inline-block;
+		width: 100%; }
+
+/*HOME*/
+section#home {
+	background-color: #039be5;
+	height: 400px;}
+
+	#home>.wrap> h1 {
+		font-size: 100px;
+		margin-bottom: 5px;
+		color: white;
+		font-weight: 100;
+		text-align: center;
+		padding-top: 80px;
+		text-transform: uppercase;}
+
+	#home> .wrap>h3 {
+		font-size: 24px;
+		font-weight: 100;
+		color: white;
+		text-align: center; 
+		text-transform: uppercase;}
+
+/*SERVICES*/
+#services{ 
+	margin-top: 60px;
+	height: 450px;}
+
+	#services > .wrap > p.lead {
+		text-align: center;
+		font-size: 21px;
+		color: #555;
+		font-weight: 300;
+		line-height: 29px;}
+
+	#services > .wrap > .container {
+		text-align: center;
+		width: 1024px;
+		margin: 0 auto; }
+
+		#services > .wrap > .container > .one-third >i {
+			line-height: 130px;
+			display: inline-block;
+			background: #039be5;
+			border-radius: 100%;
+			height: 130px;
+			width: 130px;
+			margin: 80px 72px 30px 72px;
+			text-align: center;
+			border: 3px solid white;
+			box-shadow: 0px 0px 0px 5px #039be5;
+			color: white;}
+
+
+		#services > .wrap > .container > .one-third {
+			position: relative;
+			margin: auto;
+			width: 28%;
+			display: inline-block;}
+
+			#services > .wrap > .container > .one-third > h4 {
+				text-transform: uppercase;
+				font-size: 16px;
+				font-family: 300;
+				text-align: center;
+				margin-bottom: 10px;
+				color: #999;}
+
+			#services > .wrap > .container > .one-third > p{
+				font-size: 14px;
+				font-family: 300;
+				text-align: center;
+				color: #999;}		
+		
+/*ABOUT*/
+#about{
+	background: #e9f5fb;
+	height: 1020px;}
+
+	#about > .wrap > h2 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #555;
+		font-weight: 300;
+		font-size: 36px;
+		margin-top: 50px;
+		line-height: 70px;}
+
+	#about > .wrap > p {
+		text-align: center;
+		color: #555;
+		font-weight: 300;
+		font-size: 18px;}
+
+	#about > .wrap > .container {
+		width: 1024px;
+		margin: 0 auto; }
+
+		#about > .wrap > .container > .one-third {
+			display: inline-block;
+			width: 28%;
+			margin: 60px 25px 0 25px;}
+
+			#about > .wrap > .container > .one-third  > h4 {
+				font-weight: 300;
+				text-transform: uppercase;
+				font-size: 18px;
+				color: #555;
+				margin-bottom: 15px;}
+
+			#about > .wrap > .container > .one-third  > p{
+				font-weight: 300;
+				font-size: 14px;
+				color: #555;}
+
+				#about > .wrap > .container > h3 {
+					text-transform: uppercase;
+					text-align: center;
+					font-weight: 300;
+					margin-top: 80px;
+					font-size: 24px;}
+
+				#about > .wrap > .container > .one-third > .team-member {
+					background: #cde1eb;
+					text-align: center;
+					height: 440px;}
+
+					#about > .wrap > .container > .one-third > .team-member > img {
+						margin: 28px 0 12px 0;}
+
+					#about > .wrap > .container > .one-third > .team-member > h4 {
+						font-weight: 300;
+						text-transform: uppercase;
+						color: #666;
+						font-size: 16px;}
+
+					#about > .wrap > .container > .one-third > .team-member > .team-member-position {
+						background: white;
+						padding: 6px;
+						margin: 6px 0;
+						color: #666;
+						font-size: 14px;}
+
+					#about > .wrap > .container > .one-third > .team-member >p{
+						font-size: 14px;
+						color: #666;
+						font-weight: 300;
+						width: 200px;
+						text-align: center;
+						margin: 0 auto;
+						line-height: 18px;}
+
+					#about > .wrap > .container > .one-third > .team-member > .social-icons> ul > li {
+						display: inline-block;}
+
+						#about > .wrap > .container > .one-third > .team-member > .social-icons> ul > li > a {
+							text-decoration: none;
+							color: #777;
+							padding: 10px;
+							margin-top: 12px;
+							display: inline-block;}
+
+						#about > .wrap > .container > .one-third > .team-member > .social-icons> ul > li > a:hover {
+							color: white;}
+
+/*PORTFOLIO*/
+#portfolio { height: 1000px;}
+	
+	#portfolio > .wrap > h2 {
+		text-align: center;
+		text-transform: uppercase;
+		color: #555;
+		font-weight: 300;
+		font-size: 36px;
+		margin-top: 50px;
+		line-height: 70px;}
+
+	#portfolio > .wrap > p {
+		text-align: center;
+		color: #555;
+		font-weight: 300;
+		font-size: 18px;}
+
+	#portfolio > .wrap > nav {
+		border-bottom: 1px solid #eee;}
+
+		#portfolio > .wrap > nav > ul > li {
+			display: inline-block;
+			margin-top: 70px;
+			margin-bottom: 10px;}
+
+			#portfolio > .wrap > nav > ul > li > a {
+				text-decoration: none;
+				color: #666;
+				text-transform: uppercase;
+				font-size: 14px;
+				margin-right: 12px;}
+
+			#portfolio > .wrap > nav > ul > li > a.active, a:hover {
+				border-bottom: 3px solid #039be5;
+				color: #039be5;
+				padding-bottom: 9px; }
+
+	#portfolio > .wrap > .images {
+		margin-top: 30px;}
+		#portfolio > .wrap > .images > img {
+			margin: 0 20px 20px 0;
+		}
+
+			
+
+
+
+
+
+
+
